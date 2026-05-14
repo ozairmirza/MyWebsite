@@ -1,0 +1,73 @@
+[
+  {
+    "category": "books",
+    "items": [
+      {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "year": 1965,
+        "description": "Epic science fiction classic",
+        "rating": 5
+      },
+      {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "description": "Dystopian masterpiece",
+        "rating": 5
+      },
+      {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": 1937,
+        "description": "Fantasy adventure",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "category": "board-games",
+    "items": [
+      {
+        "title": "Catan",
+        "players": "2-4",
+        "playtime": "60 min",
+        "description": "Strategy and settlement game",
+        "rating": 5
+      },
+      {
+        "title": "Ticket to Ride",
+        "players": "2-5",
+        "playtime": "45 min",
+        "description": "Railway adventure game",
+        "rating": 5
+      },
+      {
+        "title": "Pandemic",
+        "players": "2-4",
+        "playtime": "45 min",
+        "description": "Cooperative strategy game",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "category": "other",
+    "items": [
+      {
+        "title": "Vintage Camera",
+        "model": "Canon AE-1",
+        "year": 1976,
+        "description": "35mm film camera",
+        "rating": 4
+      },
+      {
+        "title": "Vinyl Records",
+        "genre": "Jazz",
+        "count": 25,
+        "description": "Classic jazz collection",
+        "rating": 5
+      }
+    ]
+  }
+]

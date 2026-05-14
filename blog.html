@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Ozair Mirza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Ozair Mirza</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="collections.html" class="nav-link">Collections</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>My Blog</h1>
+            <p>Thoughts, insights, and stories from my journey</p>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- Main Content -->
+                <main class="blog-main">
+                    <div id="blog-posts-container"></div>
+                </main>
+
+                <!-- Sidebar -->
+                <aside class="blog-sidebar">
+                    <!-- Newsletter Signup -->
+                    <div class="sidebar-widget newsletter">
+                        <h3>Subscribe to My Newsletter</h3>
+                        <p>Get updates on new blog posts and interesting finds</p>
+                        <form class="newsletter-form" id="newsletter-form">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="sidebar-widget">
+                        <h3>Categories</h3>
+                        <ul class="category-list">
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">Books & Reading</a></li>
+                            <li><a href="#">Board Games</a></li>
+                            <li><a href="#">Life & Personal</a></li>
+                            <li><a href="#">Collections</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Featured -->
+                    <div class="sidebar-widget">
+                        <h3>Featured</h3>
+                        <div class="featured-item">
+                            <h4>Latest Collection</h4>
+                            <p>Check out my newest board game acquisitions</p>
+                            <a href="collections.html" class="btn btn-small">View Collections</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ozair Mirza</h3>
+                    <p>Developer | Reader | Collector</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://github.com/ozairmirza" target="_blank">GitHub</a></li>
+                        <li><a href="https://twitter.com/ozairmirza" target="_blank">Twitter</a></li>
+                        <li><a href="https://linkedin.com/in/ozairmirza" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ozair Mirza. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
